@@ -78,7 +78,7 @@ checkboxEl.addEventListener('change', () => {
 })
 
 nameEl.addEventListener('input', () => {
-    nameValid = nameEl.value.length > 3;
+    nameValid = nameEl.value.length > 1;
     if (nameValid) {
         nameEl.classList.add("valid");
         gearsTls.forEach(tl => {
